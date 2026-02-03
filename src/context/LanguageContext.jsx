@@ -6,6 +6,12 @@ const LanguageContext = createContext();
 // Textos en ambos idiomas
 const translations = {
   es: {
+    // Header
+    header: {
+      location: 'Málaga, España',
+      subtitle: 'Web Developer • Construcción de soluciones digitales',
+      edition: 'EDICIÓN DIGITAL • PORTFOLIO PROFESIONAL'
+    },
     // Navigation
     nav: {
       home: 'Inicio',
@@ -14,9 +20,14 @@ const translations = {
       trajectory: 'Trayectoria',
       contact: 'Contacto'
     },
-    // Iremos agregando más secciones en pasos siguientes
   },
   en: {
+    // Header
+    header: {
+      location: 'Málaga, Spain',
+      subtitle: 'Web Developer • Building digital solutions',
+      edition: 'DIGITAL EDITION • PROFESSIONAL PORTFOLIO'
+    },
     // Navigation
     nav: {
       home: 'Home',
