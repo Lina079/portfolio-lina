@@ -20,6 +20,12 @@ const translations = {
       trajectory: 'Trayectoria',
       contact: 'Contacto'
     },
+    //Hero
+    hero: {
+      headline: 'Construyo soluciones web a partir de necesidades reales.',
+      description: 'Diseño y desarrollo productos digitales claros y funcionales, convirtiendo ideas en sistemas que realmente se puedan usar.',
+      cta: 'Ver proyectos'
+    },
   },
   en: {
     // Header
@@ -35,6 +41,12 @@ const translations = {
       about: 'About',
       trajectory: 'Journey',
       contact: 'Contact'
+    },
+    //Hero 
+    hero: {
+      headline: 'I build web solutions from real needs.',
+      description: 'I design and develop clear and functional digital products, turning ideas into systems that people can actually use.',
+      cta: 'View Projects'
     },
     // Iremos agregando más secciones en pasos siguientes
   }

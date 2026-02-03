@@ -1,14 +1,13 @@
 import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
     <div className="app">
       <Header />
+      <Hero />
       
-      <main>
-        <h1>Portfolio Lina</h1>
-        <p>Header funcionando. Prueba el toggle EN/ES.</p>
-      </main>
+      {/* Secciones siguientes se agregarán aquí */}
     </div>
   );
 }

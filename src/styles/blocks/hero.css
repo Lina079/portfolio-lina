@@ -1,0 +1,106 @@
+/* Hero - Editorial Headline Section (Compact) */
+
+.hero {
+  padding: var(--space-lg) 0;
+  text-align: center;
+}
+
+/* Decorative lines */
+.hero__line {
+  height: 2px;
+  background-color: var(--color-text-primary);
+  margin: 0 auto;
+  max-width: 300px;
+  transform-origin: center;
+}
+
+.hero__line:first-child {
+  margin-bottom: var(--space-md);
+}
+
+.hero__line:last-child {
+  margin-top: var(--space-md);
+}
+
+/* Main headline */
+.hero__headline {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+  max-width: 800px;
+  margin: 0 auto var(--space-md);
+}
+
+/* Mockup Image */
+.hero__image-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CTA Button - casi pegado a imagen */
+.hero__cta {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--color-accent);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+  margin-top: var(--space-sm);
+}
+
+.hero__cta:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.hero__cta:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Description - después del botón */
+.hero__description {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: var(--space-md) auto 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero {
+    padding: var(--space-md) 0;
+  }
+
+  .hero__headline {
+    font-size: var(--font-size-2xl);
+  }
+
+  .hero__image-wrapper {
+    max-width: 100%;
+  }
+
+  .hero__description {
+    font-size: var(--font-size-xs);
+  }
+
+  .hero__line {
+    max-width: 200px;
+  }
+}
