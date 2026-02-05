@@ -59,9 +59,23 @@ const translations = {
         demo: 'https://lina079.github.io/Cultural_Stories_WebPage_HTML_CSS/',
         tech: ['HTML5', 'CSS3', 'JavaScript','Git']
       }
-    }
-  },
-  en: {
+    },
+    // About
+    about: {
+    title: 'Sobre mí',
+    subtitle: 'Full-Stack Developer | Productos orientados a usuario',
+    headline: 'Construyo soluciones web a partir de necesidades reales.',
+    paragraph1: 'Mi carrera empezó lejos del código: estudié Medicina Veterinaria y pasé más de 10 años trabajando con clientes, negocio y objetivos medibles. Aprendí a escuchar, a traducir problemas en acciones y a sostener resultados en el tiempo.',
+    paragraph2: 'Hoy soy Full-Stack Developer y uso esa base para crear productos digitales claros y sostenibles, especialmente en proyectos tipo SaaS como KeepClient y finanzas personales como Quanty. Me interesa colaborar con personas y equipos que valoren la autonomía, el criterio y la responsabilidad — y que quieran convertir una idea en un producto usable.',
+    location: 'Ubicación: Málaga, España',
+    work: 'Trabajo: Full-Stack Developer',
+    focus: 'Enfoque: SaaS · Producto · UX',
+    languages: 'Idiomas: ES · EN (B2)',
+    videoTitle: 'Video destacado',
+    videoCta: 'Ver video'
+    },
+    },
+    en: {
     // Header
     header: {
       location: 'Málaga, Spain',
@@ -115,7 +129,21 @@ const translations = {
         demo: 'https://lina079.github.io/Cultural_Stories_WebPage_HTML_CSS/',
         tech: ['HTML5', 'CSS3', 'JavaScript','Git']
       }
-    } 
+    }, 
+    // About
+    about: {
+    title: 'About',
+    subtitle: 'Full-Stack Developer | Product-minded solutions',
+    headline: 'I build web solutions from real needs.',
+    paragraph1: 'My career started far from code: I studied Veterinary Medicine and spent over 10 years working with clients, business objectives, and measurable results. I learned to listen, translate problems into actions, and sustain outcomes over time.',
+    paragraph2: 'Today I\'m a Full-Stack Developer and I use that foundation to create clear and sustainable digital products, especially in SaaS projects like KeepClient and personal finance solutions like Quanty. I\'m interested in collaborating with people and teams who value autonomy, judgment, and accountability — and who want to turn an idea into a usable product.',
+    location: 'Location: Málaga, Spain',
+    work: 'Work: Full-Stack Developer',
+    focus: 'Focus: SaaS · Product · UX',
+    languages: 'Languages: ES · EN (B2)',
+    videoTitle: 'Featured video',
+    videoCta: 'Watch video'
+  },
   }
 };
 

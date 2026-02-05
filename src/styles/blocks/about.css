@@ -1,0 +1,192 @@
+/* About Section - Editorial Style */
+
+.about {
+  padding: var(--space-3xl) 0;
+}
+
+/* Section Header */
+.about__header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.about__header::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.about__header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-text-primary);
+  margin-top: var(--space-md);
+}
+
+.about__title {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.about__subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-normal);
+  color: var(--color-text-secondary);
+}
+
+/* Main Content Grid */
+.about__content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+/* Text Column */
+.about__text {
+  background-color: transparent;
+}
+
+.about__headline {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.about__paragraph {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.about__info {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-lg) 0 0 0;
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-md);
+}
+
+.about__info li {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+/* Photo Column */
+.about__photo-wrapper {
+  background-color: transparent;
+}
+
+.about__photo {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 3px double var(--color-border-dark);
+  box-shadow: 
+    2px 2px 0 rgba(0, 0, 0, 0.05),
+    4px 4px 0 rgba(0, 0, 0, 0.03);
+}
+
+.about__photo-caption {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-sm);
+  text-align: center;
+  font-style: italic;
+}
+
+/* Video Section */
+.about__video {
+  text-align: center;
+  background-color: transparent;
+}
+
+.about__video-title {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-md);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-lg);
+}
+
+.about__video-wrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.about__video-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about__video-cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--color-accent);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-md);
+}
+
+.about__video-cta:hover {
+  background-color: var(--color-accent-hover);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about {
+    padding: var(--space-2xl) 0;
+  }
+
+  .about__title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .about__content {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .about__photo-wrapper {
+    order: -1;
+  }
+}
