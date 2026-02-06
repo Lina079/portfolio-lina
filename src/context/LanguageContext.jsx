@@ -65,7 +65,7 @@ const translations = {
     title: 'Sobre mí',
     subtitle: 'Full-Stack Developer | Productos orientados a usuario',
     headline: 'Construyo soluciones web a partir de necesidades reales.',
-    paragraph1: 'Mi carrera empezó lejos del código: estudié Medicina Veterinaria y pasé más de 10 años trabajando con clientes, negocio y objetivos medibles. Aprendí a escuchar, a traducir problemas en acciones y a sostener resultados en el tiempo.',
+    paragraph1: 'Mi carrera empezó lejos del código, estudié Medicina Veterinaria y pasé más de 10 años trabajando con clientes, negocio y objetivos medibles. Aprendí a escuchar, a traducir problemas en acciones y a sostener resultados en el tiempo.',
     paragraph2: 'Hoy soy Full-Stack Developer y uso esa base para crear productos digitales claros y sostenibles, especialmente en proyectos tipo SaaS como KeepClient y finanzas personales como Quanty. Me interesa colaborar con personas y equipos que valoren la autonomía, el criterio y la responsabilidad — y que quieran convertir una idea en un producto usable.',
     location: 'Ubicación: Málaga, España',
     work: 'Trabajo: Full-Stack Developer',
@@ -74,6 +74,40 @@ const translations = {
     videoTitle: 'Video destacado',
     videoCta: 'Ver video'
     },
+    // Testimonials
+    testimonials: {
+    title: 'Lo que dicen de trabajar conmigo',
+    antonio: {
+    name: 'Antonio Cárdenas',
+    role: 'CEO — Vivirse',
+    quote: 'Lina fue parte del equipo fundacional de atención al cliente durante una etapa clave de crecimiento de la empresa. Profesional, responsable y constante.'
+    },
+    krenar: {
+    name: 'Krenar Hodja',
+    role: 'Warranted Social Worker',
+    quote: 'Capacidad excepcional para comunicarse con claridad en contextos complejos, adaptando el enfoque según las necesidades del usuario.'
+    },
+    juliana: {
+    name: 'Juliana Dorado',
+    role: 'Psicóloga · Experiencia en Atención al Cliente',
+    quote: 'Una de las profesionales más adaptables con las que he trabajado. Altamente productiva, constante y siempre actúa con responsabilidad y honestidad.'
+  }
+},
+    // Contact
+    contact: {
+    headline: 'Hablemos',
+    text: 'Trabajo con personas y equipos que valoran la claridad, la responsabilidad y el producto bien hecho. Si crees que puedo aportar a tu proyecto, conversemos.',
+    title: 'Contáctame',
+    email: 'linacastror079@gmail.com',
+    emailLabel: 'Email',
+    linkedin: 'linkedin.com/in/lina-castro079',
+    linkedinLabel: 'LinkedIn',
+    github: 'github.com/Lina079',
+    githubLabel: 'GitHub',
+    whatsapp: 'WhatsApp comercial',
+    whatsappSubtext: '¿Tienes un proyecto en mente?',
+    whatsappNumber: '+34607790464'
+    }
     },
     en: {
     // Header
@@ -135,7 +169,7 @@ const translations = {
     title: 'About',
     subtitle: 'Full-Stack Developer | Product-minded solutions',
     headline: 'I build web solutions from real needs.',
-    paragraph1: 'My career started far from code: I studied Veterinary Medicine and spent over 10 years working with clients, business objectives, and measurable results. I learned to listen, translate problems into actions, and sustain outcomes over time.',
+    paragraph1: 'My career started far from code, I studied Veterinary Medicine and spent over 10 years working with clients, business objectives, and measurable results. I learned to listen, translate problems into actions, and sustain outcomes over time.',
     paragraph2: 'Today I\'m a Full-Stack Developer and I use that foundation to create clear and sustainable digital products, especially in SaaS projects like KeepClient and personal finance solutions like Quanty. I\'m interested in collaborating with people and teams who value autonomy, judgment, and accountability — and who want to turn an idea into a usable product.',
     location: 'Location: Málaga, Spain',
     work: 'Work: Full-Stack Developer',
@@ -144,6 +178,40 @@ const translations = {
     videoTitle: 'Featured video',
     videoCta: 'Watch video'
   },
+  // Testimonials
+    testimonials: {
+    title: 'What people say about working with me',
+    antonio: {
+    name: 'Antonio Cárdenas',
+    role: 'CEO — Vivirse',
+    quote: 'Lina was part of the founding customer service team during a key growth stage of the company. Professional, reliable, and consistent.'
+    },
+    krenar: {
+    name: 'Krenar Hodja',
+    role: 'Warranted Social Worker',
+    quote: 'Exceptional ability to communicate clearly in complex contexts, adapting the approach to meet user needs.'
+  },
+  juliana: {
+    name: 'Juliana Dorado',
+    role: 'Psychologist · Customer Experience',
+    quote: 'One of the most adaptable professionals I have ever met. Highly productive, consistent, and always acting with responsibility and honesty.'
+  }
+},
+// Contact
+contact: {
+  headline: 'Let\'s talk',
+  text: 'I work with people and teams who value clarity, accountability, and quality execution. If you think I can contribute to your project, let\'s have a conversation.',
+  title: 'Contact me',
+  email: 'linacastror079@gmail.com',
+  emailLabel: 'Email',
+  linkedin: 'linkedin.com/in/lina-castro079',
+  linkedinLabel: 'LinkedIn',
+  github: 'github.com/Lina079',
+  githubLabel: 'GitHub',
+  whatsapp: 'Commercial WhatsApp',
+  whatsappSubtext: 'Have a project in mind?',
+  whatsappNumber: '+34607790464',
+}
   }
 };
 

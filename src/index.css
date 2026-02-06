@@ -11,7 +11,7 @@
  @import './styles/blocks/projects.css'; 
  @import './styles/blocks/project-card.css'; 
  @import './styles/blocks/about.css'; 
-/* @import './styles/blocks/timeline.css'; */
-/* @import './styles/blocks/testimonials.css'; */
-/* @import './styles/blocks/contact.css'; */
+ @import './styles/blocks/testimonials.css'; 
+ @import './styles/blocks/contact.css'; 
 /* @import './styles/blocks/footer.css'; */
+
