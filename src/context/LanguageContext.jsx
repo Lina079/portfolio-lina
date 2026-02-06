@@ -107,6 +107,12 @@ const translations = {
     whatsapp: 'WhatsApp comercial',
     whatsappSubtext: '¿Tienes un proyecto en mente?',
     whatsappNumber: '+34607790464'
+    },
+    // Footer
+    footer: {
+    copyright: '© 2026 Lina Castro',
+    tagline: 'Diseñado y desarrollado con claridad y propósito.',
+    location: 'Málaga, España'
     }
     },
     en: {
@@ -211,6 +217,12 @@ contact: {
   whatsapp: 'Commercial WhatsApp',
   whatsappSubtext: 'Have a project in mind?',
   whatsappNumber: '+34607790464',
+},
+// Footer
+footer: {
+  copyright: '© 2026 Lina Castro',
+  tagline: 'Designed and developed with clarity and purpose.',
+  location: 'Málaga, Spain'
 }
   }
 };
