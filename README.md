@@ -12,7 +12,7 @@ Portfolio web profesional con diseño editorial tipo periódico, desarrollado en
 ![Portfolio Desktop - Hero Section](docs/screenshots/hero-image.png)
 
 ### Vista Mobile
-![Portfolio Mobile - Responsive Design](docs/screenshots/responsive.png)
+![Portfolio Mobile - Responsive Design](docs/screenshots/responsive-image.png)
 
 ### Sección Contacto
 ![Contact Section - Hablemos](docs/screenshots/letsTalk.png)
