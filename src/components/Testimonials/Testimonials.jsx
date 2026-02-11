@@ -3,6 +3,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import antonioPhoto from '../../assets/images/Antonio-photo.png';
 import krenarPhoto from '../../assets/images/Krenar-photo.png';
 import julianaPhoto from '../../assets/images/JulianaDorado-photo.png';
+import martaPhoto from '../../assets/images/Marta-photo.png';
 
 function Testimonials() {
   const { t } = useLanguage();
@@ -22,6 +23,11 @@ function Testimonials() {
       ...t.testimonials.juliana,
       photo: julianaPhoto,
       rotation: -1
+    },
+    {
+      ...t.testimonials.Marta,
+      photo: martaPhoto,
+      rotation: 1
     }
   ];
 

@@ -91,7 +91,12 @@ const translations = {
     name: 'Juliana Dorado',
     role: 'Psicóloga · Experiencia en Atención al Cliente',
     quote: 'Una de las profesionales más adaptables con las que he trabajado. Altamente productiva, constante y siempre actúa con responsabilidad y honestidad.'
-  }
+  },
+    Marta: {
+    name: 'Marta Poggio López',
+    role: 'AEMet - Jefe de Administración',
+    quote: 'Profesional organizada y extremadamente detallista. Cuida cada proceso, revisa cada detalle y se asegura de que todo esté correctamente resuelto antes de darlo por finalizado.',
+    }
 },
     // Contact
     contact: {
@@ -201,7 +206,12 @@ const translations = {
     name: 'Juliana Dorado',
     role: 'Psychologist · Customer Experience',
     quote: 'One of the most adaptable professionals I have ever met. Highly productive, consistent, and always acting with responsibility and honesty.'
-  }
+  },
+    Marta: {
+    name: 'Marta Poggio López',
+    role: 'AEMet - Administration Manager',
+    quote: 'Highly organized and detail-oriented professional. She carefully manages every process, reviews every detail, and ensures everything is properly resolved before considering it complete.',
+    }
 },
 // Contact
 contact: {
